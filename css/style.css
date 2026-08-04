@@ -75,6 +75,10 @@ a { color: inherit; text-decoration: none; }
   .nav-toggle { display: block; }
 }
 
+/* Banner */
+.site-banner { display: block; width: 100%; line-height: 0; }
+.site-banner img { width: 100%; height: auto; display: block; }
+
 /* Hero */
 .hero {
   background: linear-gradient(135deg, var(--navy-950), var(--navy-900) 60%, var(--navy-800));
