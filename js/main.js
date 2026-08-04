@@ -5,6 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
     toggle.addEventListener("click", function () {
       nav.classList.toggle("open");
     });
+    nav.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        nav.classList.remove("open");
+      });
+    });
   }
 
   var form = document.querySelector("#contact-form");
