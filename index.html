@@ -17,24 +17,22 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a href="index.html" class="brand">
+    <a href="#home" class="brand">
       <img src="assets/logo-icon-192.png" alt="X Multiply logo" />
       <span>X Multiply</span>
     </a>
     <nav class="nav">
-      <a href="index.html" class="active">Home</a>
-      <a href="services.html">Services</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
     <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
   </div>
 </header>
 
-<div class="site-banner">
-  <div class="wrap">
-    <img src="assets/banner-web.png" alt="X Multiply — Management Consultancy. Practical consulting support for F&amp;B businesses." />
-  </div>
+<div id="home" class="site-banner">
+  <img src="assets/banner-web.png" alt="X Multiply — Management Consultancy. Practical consulting support for F&amp;B businesses." />
 </div>
 
 <section class="hero">
@@ -43,13 +41,13 @@
     <h1>Practical consulting support for food &amp; beverage businesses.</h1>
     <p class="lead">X Multiply Private Limited works with F&amp;B owners and operators on the everyday business decisions that shape how a food business runs and grows.</p>
     <div class="hero-actions">
-      <a href="contact.html" class="btn btn-gold">Get in touch</a>
-      <a href="services.html" class="btn btn-outline">Explore our services</a>
+      <a href="#contact" class="btn btn-gold">Get in touch</a>
+      <a href="#services" class="btn btn-outline">Explore our services</a>
     </div>
   </div>
 </section>
 
-<section>
+<section id="services">
   <div class="wrap">
     <div class="section-head">
       <span class="kicker">WHAT WE DO</span>
@@ -92,12 +90,66 @@
 </section>
 
 <section class="band">
+  <div class="wrap" style="text-align:center; max-width:640px;">
+    <span class="kicker">HOW WE WORK</span>
+    <h2>Simple, three-step engagement</h2>
+    <p style="margin-top:20px;">1. A no-obligation conversation to understand your business and what you need.<br/>
+    2. A proposed scope of work tailored to your situation.<br/>
+    3. Engagement, with clear check-ins along the way.</p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap split">
+    <div>
+      <span class="kicker">OUR APPROACH</span>
+      <h2>Why we focus on F&amp;B</h2>
+      <p>Food &amp; beverage businesses run on tight margins, real-time operations, and constant people-management — challenges that don't always map neatly onto generic business advice. We chose to specialise here so our recommendations start from an understanding of how F&amp;B businesses actually operate day to day.</p>
+      <p>As a newly registered consultancy, we work closely with a small number of clients at a time, so each engagement gets proper attention rather than a templated playbook.</p>
+    </div>
+    <div class="panel">
+      <h3 style="font-size:16px; margin-bottom:18px;">Company Information</h3>
+      <ul class="fact-list">
+        <li><span>Legal name</span><span>X Multiply Private Limited</span></li>
+        <li><span>UEN</span><span>202622174G</span></li>
+        <li><span>Entity type</span><span>Exempt Private Company</span></li>
+        <li><span>Registered in</span><span>Singapore</span></li>
+        <li><span>Focus sector</span><span>Food &amp; Beverage</span></li>
+        <li><span>Service line</span><span>Management Consultancy</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">HOW WE THINK</span>
+      <h2>Principles we work by</h2>
+    </div>
+    <div class="grid">
+      <div class="card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12);">
+        <h3 style="color:#fff;">Practical over theoretical</h3>
+        <p style="color:#cbd3d6;">Recommendations should be something you can actually act on this month, not a slide deck that sits in a drawer.</p>
+      </div>
+      <div class="card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12);">
+        <h3 style="color:#fff;">Honest, not just agreeable</h3>
+        <p style="color:#cbd3d6;">If something isn't working, we'll say so — an outside perspective is only useful if it's candid.</p>
+      </div>
+      <div class="card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12);">
+        <h3 style="color:#fff;">Right-sized for your business</h3>
+        <p style="color:#cbd3d6;">A single hawker stall and a multi-outlet F&amp;B group need very different support. We scope accordingly.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
   <div class="wrap split">
     <div>
       <span class="kicker">WHO WE ARE</span>
       <h2>A Singapore-registered consultancy, built around F&amp;B</h2>
-      <p>X Multiply Private Limited is registered in Singapore under management consultancy services. We chose to focus on the food &amp; beverage sector because it's an industry with distinct operational rhythms — and we believe it deserves consulting support built around that reality, not generic advice retrofitted to fit.</p>
-      <a href="about.html" class="btn btn-outline">More about us</a>
+      <p style="color:#cbd3d6;">X Multiply Private Limited is registered in Singapore under management consultancy services. We chose to focus on the food &amp; beverage sector because it's an industry with distinct operational rhythms — and we believe it deserves consulting support built around that reality, not generic advice retrofitted to fit.</p>
     </div>
     <div class="panel" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12);">
       <ul class="fact-list" style="margin-top:0;">
@@ -110,11 +162,43 @@
   </div>
 </section>
 
-<section class="cta-band">
+<section id="contact">
   <div class="wrap">
-    <h2>Let's talk about your business</h2>
-    <p>Whether it's a single outlet or a growing group of them, we're glad to start with a conversation.</p>
-    <a href="contact.html" class="btn btn-gold">Contact us</a>
+    <div class="section-head">
+      <span class="kicker">CONTACT</span>
+      <h2>Let's talk about your business</h2>
+      <p>Send us a note about your F&amp;B business and what you're looking for — we'll get back to you to arrange a conversation.</p>
+    </div>
+  </div>
+  <div class="wrap contact-grid">
+    <div class="panel">
+      <form id="contact-form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="field">
+          <label for="message">Tell us about your business</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold" style="border:none; cursor:pointer;">Send message</button>
+        <p class="disclaimer">Submitting this form opens your email client with a pre-filled message to us. We typically respond within a few business days.</p>
+      </form>
+    </div>
+    <div>
+      <h3 style="font-size:19px;">Company details</h3>
+      <ul class="fact-list">
+        <li><span>Legal name</span><span>X Multiply Private Limited</span></li>
+        <li><span>UEN</span><span>202622174G</span></li>
+        <li><span>Email</span><span>hello@xmultiply.sg</span></li>
+        <li><span>Registered address</span><span>339 Woodlands Avenue 1,<br/>#05-557, Singapore 730339</span></li>
+      </ul>
+      <p style="margin-top:20px; font-size:14px;">Note: the registered address above is our company's registered office and may not be a client-facing meeting location. Consultations are arranged on a case-by-case basis.</p>
+    </div>
   </div>
 </section>
 
@@ -127,10 +211,10 @@
       </div>
       <div>
         <h4>SITE</h4>
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </div>
       <div>
         <h4>COMPANY</h4>
