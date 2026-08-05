@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var message = encodeURIComponent(form.message.value);
       var subject = encodeURIComponent("Enquiry from " + form.name.value);
       var body = "Name: " + form.name.value + "%0D%0AEmail: " + form.email.value + "%0D%0A%0D%0A" + message;
-      window.location.href = "mailto:hello@xmultiply.sg?subject=" + subject + "&body=" + body;
+      window.location.href = "mailto:xmultiplysg@gmail.com?subject=" + subject + "&body=" + body;
     });
   }
 });
